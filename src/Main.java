@@ -37,7 +37,7 @@ public class Main {
         listC.add(5,listB.get(2));
         listC.add(7,listB.get(1));
         listC.add(9,listB.get(0));*/
-//        Collections.reverse(listB);
+        Collections.reverse(listB);
         while (iteratorA.hasNext() && iteratorB.hasNext()) {
             listC.add(iteratorA.next());
             listC.add(iteratorB.next());
